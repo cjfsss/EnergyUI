@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="notify_head_img" type="id"/>
+    <item name="notify_title" type="id"/>
+    <item name="notify_subtitle" type="id"/>
+    <item name="notify_layout" type="id"/>
+
+</resources>

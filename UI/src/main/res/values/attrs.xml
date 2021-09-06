@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AppBar.Menu">
+        <attr name="toolbarMenuTextStyle" format="reference" />
+        <attr name="toolbarMenuImageStyle" format="reference" />
+        <attr name="toolbarMenuSpinnerStyle" format="reference" />
+    </declare-styleable>
+
+    <attr name="navigationGravity">
+        <enum name="top" value="0" />
+        <enum name="center_vertical" value="1" />
+    </attr>
+    <attr name="menuLeftMargin" format="reference" />
+    <attr name="menuRightMargin" format="reference" />
+    <attr name="menu1" format="reference" />
+    <attr name="menu2" format="reference" />
+    <attr name="menu3" format="reference" />
+    <attr name="menu4" format="reference" />
+    <attr name="menu5" format="reference" />
+    <attr name="menu1TextSize" format="reference" />
+    <attr name="menu2TextSize" format="reference" />
+    <attr name="menu3TextSize" format="reference" />
+    <attr name="menu4TextSize" format="reference" />
+    <attr name="menu5TextSize" format="reference" />
+    <attr name="menu1Color" format="reference" />
+    <attr name="menu2Color" format="reference" />
+    <attr name="menu3Color" format="reference" />
+    <attr name="menu4Color" format="reference" />
+    <attr name="menu5Color" format="reference" />
+
+    <declare-styleable name="AppBar">
+        <attr name="navigationGravity"/>
+        <attr name="menuLeftMargin" />
+        <attr name="menuRightMargin" />
+        <attr name="menu1" />
+        <attr name="menu2" />
+        <attr name="menu3" />
+        <attr name="menu4" />
+        <attr name="menu5" />
+        <attr name="menu1TextSize" />
+        <attr name="menu2TextSize" />
+        <attr name="menu3TextSize" />
+        <attr name="menu4TextSize" />
+        <attr name="menu5TextSize" />
+        <attr name="menu1Color" />
+        <attr name="menu2Color" />
+        <attr name="menu3Color" />
+        <attr name="menu4Color" />
+        <attr name="menu5Color" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialAppBar">
+        <attr name="navigationGravity"/>
+        <attr name="menuLeftMargin" />
+        <attr name="menuRightMargin" />
+        <attr name="menu1" />
+        <attr name="menu2" />
+        <attr name="menu3" />
+        <attr name="menu4" />
+        <attr name="menu5" />
+        <attr name="menu1TextSize" />
+        <attr name="menu2TextSize" />
+        <attr name="menu3TextSize" />
+        <attr name="menu4TextSize" />
+        <attr name="menu5TextSize" />
+        <attr name="menu1Color" />
+        <attr name="menu2Color" />
+        <attr name="menu3Color" />
+        <attr name="menu4Color" />
+        <attr name="menu5Color" />
+    </declare-styleable>
+
+    <declare-styleable name="HVScrollView">
+        <attr name="fillViewportH"  />
+        <attr name="fillViewportV"  />
+        <attr name="scrollOrientation"/>
+        <attr name="childLayoutCenter" format="boolean" />
+    </declare-styleable>
+
+    <attr name="fillViewportH" format="boolean" />
+    <attr name="fillViewportV" format="boolean" />
+
+    <attr name="scrollOrientation">
+        <enum name="none" value="0" />
+        <enum name="horizontal" value="1" />
+        <enum name="vertical" value="2" />
+        <enum name="both" value="3" />
+    </attr>
+
+    <attr name="x_separator" format="string" />
+    <attr name="x_disableClear" format="boolean" />
+    <attr name="x_clearDrawable" format="reference" />
+    <attr name="x_showPwdDrawable" format="reference" />
+    <attr name="x_hidePwdDrawable" format="reference" />
+    <attr name="x_disableEmoji" format="boolean" />
+    <attr name="x_togglePwdDrawableEnable" format="boolean" />
+    <attr name="x_pattern" format="string" />
+
+    <declare-styleable name="ClearEditText">
+        <attr name="x_clearDrawable" />
+    </declare-styleable>
+    <declare-styleable name="ClearTextInputEditText">
+        <attr name="x_clearDrawable" />
+    </declare-styleable>
+    <declare-styleable name="ClearAutoCompleteTextView">
+        <attr name="x_clearDrawable" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordEditText">
+        <attr name="x_showPwdDrawable"  />
+        <attr name="x_hidePwdDrawable"  />
+    </declare-styleable>
+
+    <!-- 正则输入限制 -->
+    <declare-styleable name="XEditText">
+        <attr name="x_separator"/>
+        <attr name="x_disableClear" />
+        <attr name="x_clearDrawable" />
+        <attr name="x_showPwdDrawable"  />
+        <attr name="x_hidePwdDrawable"  />
+        <attr name="x_disableEmoji" />
+        <attr name="x_togglePwdDrawableEnable" />
+        <attr name="x_pattern"  />
+    </declare-styleable>
+
+    <!-- 正则输入限制 -->
+    <declare-styleable name="XTextInputEditText">
+        <attr name="x_separator"/>
+        <attr name="x_disableClear" />
+        <attr name="x_clearDrawable" />
+        <attr name="x_showPwdDrawable"  />
+        <attr name="x_hidePwdDrawable"  />
+        <attr name="x_disableEmoji" />
+        <attr name="x_togglePwdDrawableEnable" />
+        <attr name="x_pattern"  />
+    </declare-styleable>
+
+    <declare-styleable name="RegexEditText">
+        <!-- 正则输入限制 -->
+        <attr name="inputRegex" />
+        <!-- 常用正则类型 -->
+        <attr name="regexType"/>
+    </declare-styleable>
+
+    <declare-styleable name="RegexAutoCompleteTextView">
+        <!-- 正则输入限制 -->
+        <attr name="inputRegex" />
+        <!-- 常用正则类型 -->
+        <attr name="regexType"/>
+    </declare-styleable>
+    <declare-styleable name="RegexTextInputEditText">
+        <!-- 正则输入限制 -->
+        <attr name="inputRegex" />
+        <!-- 常用正则类型 -->
+        <attr name="regexType"/>
+    </declare-styleable>
+
+
+    <attr name="inputRegex" format="string" />
+
+    <attr name="regexType">
+        <!-- 手机号（只能以 1 开头） -->
+        <enum name="mobile" value="0x01" />
+        <!-- 中文（普通的中文字符） -->
+        <enum name="chinese" value="0x02" />
+        <!-- 英文（大写和小写的英文） -->
+        <enum name="english" value="0x03" />
+        <!-- 整数（非 0 开头的数字） -->
+        <enum name="count" value="0x04" />
+        <!-- 用户名（中文、英文、数字） -->
+        <enum name="name" value="0x05" />
+        <!-- 非空格字符 -->
+        <enum name="nonnull" value="0x06" />
+        <!-- 英文和数字 -->
+        <enum name="englishNumber" value="0x07" />
+        <!-- 身份证号 -->
+        <enum name="idCard" value="0x08" />
+    </attr>
+
+    <declare-styleable name="ExpandTextView">
+        <attr name="textExpand" format="string" />
+        <attr name="textCollapse" format="string" />
+        <attr name="textExpandColor" format="color" />
+        <attr name="textCollapseColor" format="color" />
+        <attr name="textStartColor" format="color" />
+        <attr name="maxLineCount" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="WaterBubbleMoveView">
+        <attr name="bubbleBackgroundColorStart" format="color" />
+        <attr name="bubbleBackgroundColorEnd" format="color" />
+        <attr name="bubbleMaxSize" format="integer" />
+        <attr name="bubbleMaxRadius" format="dimension" />
+        <attr name="bubbleMinRadius" format="dimension" />
+        <attr name="bubbleColor" format="color" />
+        <attr name="bubbleStart" format="boolean" />
+        <attr name="bubbleBottomPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveViewByBezier">
+        <attr name="waveBezierColor" format="color" />
+        <attr name="waveBezierAmplitude" format="dimension" />
+        <attr name="waveBezierSpeed" format="float" />
+        <attr name="waveBezierStart" format="boolean" />
+        <attr name="waveBezierFillType" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingLineView">
+        <attr name="loadingLineStart" format="boolean" />
+        <attr name="loadingLineColor" format="color" />
+        <attr name="loadingLineBgColor" format="color" />
+        <attr name="loadingLineBgHeight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="horizontalProgressColor" format="color" />
+        <attr name="horizontalProgressBgColor" format="color" />
+        <attr name="horizontalProgressTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ArcView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="startPointAngle" format="float" />
+        <attr name="endPointAngle" format="float" />
+        <attr name="maxProgress" format="float" />
+    </declare-styleable>
+</resources>

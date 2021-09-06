@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="itemBackgroundStyle" parent="BaseItemBackgroundStyle" >
+        <item name="android:elevation">3dp</item>
+    </style>
+
+    <style name="itemBackgroundStyle16" parent="BaseItemBackgroundStyle16" >
+        <item name="android:elevation">3dp</item>
+    </style>
+</resources>

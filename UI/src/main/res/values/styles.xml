@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DividingLineHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+    <style name="DividingLineVertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- 缩放动画 -->
+    <style name="ScaleAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/window_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/window_scale_out</item>
+    </style>
+
+    <!-- ios 动画 -->
+    <style name="IOSAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/window_ios_in</item>
+        <item name="android:windowExitAnimation">@anim/window_ios_out</item>
+    </style>
+
+    <!-- 顶部弹出动画 -->
+    <style name="TopAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/window_top_in</item>
+        <item name="android:windowExitAnimation">@anim/window_top_out</item>
+    </style>
+
+    <!-- 底部弹出动画 -->
+    <style name="BottomAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/window_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/window_bottom_out</item>
+    </style>
+
+    <!-- 左边弹出动画 -->
+    <style name="LeftAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/window_left_in</item>
+        <item name="android:windowExitAnimation">@anim/window_left_out</item>
+    </style>
+
+    <!-- 右边弹出动画 -->
+    <style name="RightAnimStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/window_right_in</item>
+        <item name="android:windowExitAnimation">@anim/window_right_out</item>
+    </style>
+
+    <style name="BaseItemBackgroundStyle">
+        <item name="android:layout_marginLeft">@dimen/dp_10</item>
+        <item name="android:layout_marginRight">@dimen/dp_10</item>
+        <item name="android:layout_marginTop">@dimen/dp_8</item>
+        <item name="android:layout_marginBottom">@dimen/dp_4</item>
+        <item name="android:background">@drawable/bg_white_radius</item>
+        <item name="android:paddingLeft">@dimen/dp_8</item>
+        <item name="android:paddingRight">@dimen/dp_8</item>
+        <item name="android:paddingTop">@dimen/dp_8</item>
+        <item name="android:paddingBottom">@dimen/dp_8</item>
+    </style>
+
+    <style name="BaseItemBackgroundStyle16" parent="itemBackgroundStyle">
+        <item name="android:layout_marginLeft">@dimen/dp_16</item>
+        <item name="android:layout_marginRight">@dimen/dp_16</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:layout_marginBottom">@dimen/dp_6</item>
+        <item name="android:paddingLeft">@dimen/dp_12</item>
+        <item name="android:paddingRight">@dimen/dp_12</item>
+        <item name="android:paddingTop">@dimen/dp_12</item>
+        <item name="android:paddingBottom">@dimen/dp_12</item>
+    </style>
+
+    <style name="itemBackgroundStyle" parent="BaseItemBackgroundStyle" />
+
+    <style name="itemBackgroundTopStyle" parent="BaseItemBackgroundStyle">
+        <item name="android:background">@drawable/bg_white_radius_top</item>
+    </style>
+
+    <style name="itemBackgroundBottomStyle" parent="BaseItemBackgroundStyle">
+        <item name="android:background">@drawable/bg_white_radius_bottom</item>
+    </style>
+
+    <style name="itemBackgroundPressedStyle" parent="BaseItemBackgroundStyle">
+        <item name="android:background">@drawable/btn_white_radius</item>
+    </style>
+
+    <style name="itemBackgroundPressedTopStyle" parent="BaseItemBackgroundStyle">
+        <item name="android:background">@drawable/btn_white_radius_top</item>
+    </style>
+
+    <style name="itemBackgroundPressedBottomStyle" parent="BaseItemBackgroundStyle">
+        <item name="android:background">@drawable/btn_white_radius_bottom</item>
+    </style>
+
+    <style name="itemBackgroundStyle16" parent="BaseItemBackgroundStyle16" />
+
+    <style name="itemBackgroundTopStyle16" parent="BaseItemBackgroundStyle16">
+        <item name="android:background">@drawable/bg_white_radius_top</item>
+    </style>
+
+    <style name="itemBackgroundBottomStyle16" parent="BaseItemBackgroundStyle16">
+        <item name="android:background">@drawable/bg_white_radius_bottom</item>
+    </style>
+
+    <style name="itemBackgroundPressedStyle16" parent="BaseItemBackgroundStyle16">
+        <item name="android:background">@drawable/btn_white_radius</item>
+    </style>
+
+    <style name="itemBackgroundPressedTopStyle16" parent="BaseItemBackgroundStyle16">
+        <item name="android:background">@drawable/btn_white_radius_top</item>
+    </style>
+
+    <style name="itemBackgroundPressedBottomStyle16" parent="BaseItemBackgroundStyle16">
+        <item name="android:background">@drawable/btn_white_radius_bottom</item>
+    </style>
+</resources>
